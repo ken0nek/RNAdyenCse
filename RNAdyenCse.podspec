@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "author" => "pindiola@gmail.com" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/chocnut/RNAdyenCse.git", :tag => "master" }
+  s.source       = { :git => "https://github.com/ken0nek/RNAdyenCse.git", :branch => "fix/podspec" }
   s.source_files = "ios/*.{h,m}"
   s.requires_arc = true
 
