@@ -12,7 +12,7 @@
   "peerDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/chocnut/RNAdyenCse"
+    "url": "https://github.com/ken0nek/RNAdyenCse#fix/podspec"
   },
   "engines": {
     "npm": "^5.7.1"
