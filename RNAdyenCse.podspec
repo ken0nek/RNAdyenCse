@@ -8,12 +8,12 @@ Pod::Spec.new do |s|
                    DESC
   s.homepage     = "https://github.com/chocnut/RNAdyenCse"
   s.license      = "MIT"
-  s.author             = { "author" => "pindiola@gmail.com" }
+  s.author       = { "author" => "pindiola@gmail.com" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/chocnut/RNAdyenCse.git", :tag => "master" }
-  s.source_files  = "*.{h,m}"
+  s.source_files = "ios/*.{h,m}"
   s.requires_arc = true
 
-  s.dependency 'React'
-  s.dependency "AdyenCSE"
+  s.dependency 'React-Core'
+  s.dependency 'AdyenCSE'
 end
